@@ -1,5 +1,5 @@
 import React from 'react';
-import Table from './Table/TableContainer';
+import Table from './WibeleApp/Table/TableContainer';
 import './App.scss';
 import 'react-table/react-table.css'
 

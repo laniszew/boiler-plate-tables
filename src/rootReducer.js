@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import { formReducer } from './Redux/Reducers/TableReducer';
+import { tableReducer } from './redux/reducers/tableReducer';
 
 export default combineReducers({
-    formReducer
+    tableReducer
 });

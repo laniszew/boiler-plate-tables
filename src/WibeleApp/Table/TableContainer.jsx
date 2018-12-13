@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Table from './Table';
-import { makeAction } from '../makeAction';
-import TableActions from '../Redux/Actions/ActionTypes/TableActions';
+import { makeAction } from '../../makeAction';
+import TableActions from '../../redux/actions/actionTypes/tableActions';
 
 class FormContainer extends Component {
     constructor() {
