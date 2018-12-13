@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import Table from './Table';
 import { makeAction } from '../../makeAction';
 import TableActions from '../../redux/actions/actionTypes/tableActions';
+import * as mockData from '../../config/mockData.json'
 
 class FormContainer extends Component {
     constructor() {
@@ -25,8 +26,10 @@ class FormContainer extends Component {
         }
     ];
 
-    componentDidMount() {
-        this.setState({data: this.tableData })
+    componentDidMount() {      
+        const fromMock = mockData.default;       //we can use fromMock instead of this.tableData to import data from JSON file
+        
+        this.setState({ data: this.tableData })
     }
 
     render() {

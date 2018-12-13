@@ -6,7 +6,7 @@ import 'react-table/react-table.css'
 const App = () => (
     <div className="App">
         <header className="App-header">        
-            <h1 className="App-title">Welcome to React</h1>
+            <h1 className="App-title">Welcome to WibeleApp</h1>
         </header>
         <Table />
     </div>
