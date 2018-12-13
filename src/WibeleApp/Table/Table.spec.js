@@ -5,7 +5,7 @@ import Table from './Table';
 describe('Table', () => {
     it('should render', () => {
         const component = shallow(<Table />);
-        const test = component.find('.ReactTable')
-        expect(test).toBeTruthy();
+        const table = component.find('.ReactTable')
+        expect(table).toBeTruthy();
     });
 });

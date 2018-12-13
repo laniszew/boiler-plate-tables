@@ -71,3 +71,7 @@ npm-debug.log
 #editorconfig
 
 ./editorconfig
+package-lock.json
+dist/index.html
+dist/style.css
+dist/main.js
